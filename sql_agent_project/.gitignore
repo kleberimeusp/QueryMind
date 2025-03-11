@@ -1,0 +1,41 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables and sensitive data
+.env
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Docker files
+docker-compose.override.yml
+
+# Ignore test coverage and reports
+coverage/
+htmlcov/
+*.cover
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE configurations
+.vscode/
+.idea/
+*.iml
+
+# Ignore Alembic migration cache
+migrations/__pycache__/
+
+# Ignore large data files
+data/*.csv
+data/*.json
